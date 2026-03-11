@@ -1,3 +1,1 @@
 # DailyJavaQuestionsWithSolution
-# DailyJavaQuestionsWithSolution
-# DailyJavaQuestionsWithSolution
