@@ -18,7 +18,7 @@ public class javaday2 {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter Number : jdkw33");
+        System.out.println("Enter Number : ");
         Scanner sc = new Scanner(System.in);
         double payment = sc.nextDouble();
 
@@ -29,9 +29,12 @@ public class javaday2 {
         Locale indianLocale = new Locale("en","IN");
         NumberFormat india = NumberFormat.getCurrencyInstance(indianLocale);
 
+        NumberFormat us = NumberFormat.getCurrencyInstance(Locale.US);
+
         System.out.println("China currency : " + china.format(payment));
         System.out.println("france currency : " + france.format(payment));
         System.out.println("india currency : " + india.format(payment));
+        System.out.println("US currency : " + us.format(payment));
 
 
 
